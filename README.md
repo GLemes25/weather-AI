@@ -71,7 +71,7 @@ VITE_GROQ_API_KEY=sua_chave_groq
 Clone o repositório:
 
 ```Bash
-git clone [https://github.com/seu-usuario/previsao-tempo-ia.git](https://github.com/seu-usuario/previsao-tempo-ia.git)
+git clone [https://github.com/GLemes25/weather-AI.git](https://github.com/GLemes25/weather-AI.git)
 ```
 
 Instale as dependências:
