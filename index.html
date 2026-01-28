@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Previsão Tempo</title>
+  </head>
+
+  <body>
+    <div>
+      <h1>Previsão do Tempo</h1>
+      <div class="container">
+        <form id="weatherForm">
+          <input
+            class="city-input"
+            type="text"
+            placeholder="Digite o nome da cidade"
+            required
+          />
+
+          <button class="button-icon" type="submit">
+            <img class="img-button" src="./public/img/lupe.svg" />
+          </button>
+
+          <button class="button-icon" type="button" id="voiceButton">
+            <img class="img-button" src="./public/img/mic.svg" />
+          </button>
+        </form>
+
+        <div id="weatherResult" class="weather-result"></div>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="/src/main.ts"></script>
+</html>
